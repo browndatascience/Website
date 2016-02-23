@@ -176,3 +176,19 @@ footer {
         margin-left: 0;
     }
 }
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.navbar-default {
+    /*background-color: #F8F8F8;*/
+    background-color: #C9F921;
+    /*border-color: #E7E7E7;*/
+}
