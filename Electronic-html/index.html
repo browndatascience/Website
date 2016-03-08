@@ -33,34 +33,40 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<!--                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                    <img alt="Brand" src="images/logo_nav_2.png">
+                </button> -->
+                <a class="navbar-brand" href="index.html">
+                    <img alt="Brand" src="graphics/logo_nav.png">
                 </a>
                 <!-- <a class="navbar-brand" href="#">Start Bootstrap</a> -->
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+            <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="bdsblog.html">Activities</a>
-                    </li>
-                    <li>
-                        <a href="#faq">FAQ</a>
+                        <a href="#events">Events</a>
                     </li>
                     <li>
                         <a href="#join">Join</a>
                     </li>
+                    <li>
+                        <a href="#faq">FAQ</a>
+                    </li>
                 </ul>
+<!--                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#search">Search</a>
+                    </li>
+                </ul> -->
             </div>
+
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
@@ -71,7 +77,7 @@
         <div class="headline">
             <div class="container">
                 <h1>Welcome!</h1>
-                <h2>Access our projects <a href="bdsblog.html"> here</a></h2>
+                <h2>Access our projects <a href="bdsblog.html">here</a></h2>
             </div>
         </div>
     </header>
@@ -79,49 +85,93 @@
     <!-- Page Content -->
     <div class="container">
 
-        <hr class="featurette-divider">
-
-        <!-- First Featurette -->
-        <div class="featurette" id="about">
+        <hr class="featurette-divider" id="about">
+        <!-- Featurette -->
+        <div class="featurette">
             <img class="featurette-image img-circle img-responsive pull-right" src="images/datafest4.jpg">
             <h2 class="featurette-heading">DataFest by
                 <span class="text-muted">American Statistical Association</span>
             </h2>
-            <p class="lead">ASA DataFest is a celebration of data in which teams of undergraduates work around the clock to find and share meaning in a large, rich, and complex data set. As a competitor, you will have the chance to win prizes, collaborate with some of the best mathematicians and designers at Brown, and eat delicious free food. That being said, you don't have to compete to be able to participate in our workshops, eat our food, or participate in our networking events with cool data scientists. Whether intending to compete or to simply participate, fill out the <a href='https://docs.google.com/a/brown.edu/forms/d/1UCWl5JpR-GSow558Nq7sjp9_IoMNdR5U1wld_MRazXU/viewform?c=0&w=1'>form </a> to apply! </p>
-            <h4> How does it work? </h4>
-            <p> <li> <ul> We’ll give everyone a *really cool* dataset coming from the American Statistical Association, something that you cannot access on your own</ul>
-<ul>We’ll accept 30-50 people, with groups</ul>
-<ul>You’ll take the data, build cool models and perform visualizations, and show it to judges, and potentially win money! </ul>
-<ul>
-We’ll have food, drinks, and swag </ul>
-<ul>Prizes go to best visualization, best presentation/show, best use of external data</ul>
-<ul>Workshops on cool data tools for people with varied levels of experience (CS/Python stuff)</ul>
-</p>        </div>
+            <p class="lead">ASA DataFest is a celebration of data in which teams of undergraduates work around the clock to find and share meaning in a large, rich, and complex data set. As a competitor, you will have the chance to win prizes, collaborate with some of the best mathematicians and designers at Brown, and eat delicious free food. That being said, you don't have to compete to be able to participate in our workshops, eat our food, or participate in our networking events with cool data scientists.</p>
+            <p class="lead">Fill out the form <a href='https://docs.google.com/a/brown.edu/forms/d/1UCWl5JpR-GSow558Nq7sjp9_IoMNdR5U1wld_MRazXU/'>here</a> to apply!</p>
+        </div>
 
-        <hr class="featurette-divider">
 
-        <!-- Second Featurette -->
-        <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="images/lectureseries.jpg">
-            <h2 class="featurette-heading">Come and Hear
-                <span class="text-muted">Inspiring Speakers.</span>
-            </h2>
+
+        <hr class="featurette-divider" id="events">
+        <!-- Featurette -->
+        <div class="featurette">
+            <!-- <img class="featurette-image img-circle img-responsive pull-left" src="images/lectureseries.jpg"> -->
+            <h2 class="featurette-heading">Events</h2>
             <p class="lead">We are going to have an amazing year-around lecture series by amazing people! This semester in particular, we are going to have speakers . BDS members not only get to attend these events but they also get to interact one on one with these distinguished professionals from the industry and academia.</p>
+            <div class="row fit">
+                <div class="col-sm-4 col-wrap">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h4>Data Science Lecture</h4>
+                            <p>Raghu Ramakrishnan, PhD</p>
+                            <!-- <p>March 14th</p> -->
+                            <p>
+                            <a href="https://raghuramakrishnan.eventbrite.com/" class="label label-default" rel="tooltip" title="Register">Register</a></p>
+                        </div>
+                        <img src="graphics/talk_02.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-wrap">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h4>Data Science Lecture</h4>
+                            <p>Gunnar Carlsson, PhD</p>
+                            <!-- <p>April 15th</p> -->
+                            <p>
+                            <!-- <a href="https://raghuramakrishnan.eventbrite.com/" class="label label-default" rel="tooltip" title="Register">Register</a></p> -->
+                        </div>
+                        <img src="graphics/talk_02.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-wrap">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h4>Data Science Lecture</h4>
+                            <p>Juliana Freire, PhD</p>
+                            <!-- <p>April 28th</p> -->
+                            <p>
+                            <!-- <a href="https://raghuramakrishnan.eventbrite.com/" class="label label-default" rel="tooltip" title="Register">Register</a></p> -->
+                        </div>
+                        <img src="graphics/talk_02.png" alt="">
+                    </div>
+                </div>
+
+            </div>
         </div>
 
-        <hr class="featurette-divider">
 
-        <!-- Third Featurette -->
-        <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" src="images/proj1.jpg">
-            <h2 class="featurette-heading">Join Our
-                <span class="text-muted">Innovative Project Teams.</span>
+
+        <hr class="featurette-divider" id="join">
+        <!-- Featurette -->
+        <div class="featurette">
+            <!-- <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500"> -->
+            <h2 class="featurette-heading">Join
+                <!-- <span class="text-muted">frequently asked questions</span> -->
             </h2>
-            <p class="lead">Get <a href='bdsblog'>access</a> to exclusive datasets for really interesting projects, and potentially get course credit! Projects are innovative, fun and meaningful.</p>
+            <p class="lead"></p>
         </div>
 
-        <hr class="featurette-divider">
 
+        <hr class="featurette-divider" id="faq">
+        <!-- Featurette -->
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <h2 class="featurette-heading">FAQ
+                <!-- <span class="text-muted">frequently asked questions</span> -->
+            </h2>
+            <p class="lead"></p>
+        </div>
+
+
+        <hr class="featurette-divider">
         <!-- Footer -->
         <footer>
             <div class="row">
@@ -139,6 +189,8 @@ We’ll have food, drinks, and swag </ul>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/hover.js"></script>
 
 </body>
 
